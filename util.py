@@ -25,7 +25,7 @@ def estimated_run(PLAYER, Avg, BF, SR,Fours, Six):
     if loc_index >= 0:
         x[loc_index] = 1
     
-    return round (__model.predict([x])[0])
+    return  (__model.predict([x])[0])
 
 
 def load_saved_artifacts():
